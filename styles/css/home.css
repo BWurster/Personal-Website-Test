@@ -1,0 +1,72 @@
+@font-face {
+  font-family: source-sans;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf"); }
+@font-face {
+  font-family: source-code;
+  src: url("../fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf"); }
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf"); }
+@font-face {
+  font-family: ubuntu-mono;
+  src: url("../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf"); }
+@font-face {
+  font-family: ubuntu-light;
+  src: url("../fonts/Ubuntu/Ubuntu-Light.ttf"); }
+html {
+  min-height: 100%;
+  height: 100%;
+  margin: 0; }
+
+body {
+  min-height: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'ubuntu';
+  color: #F5F5F5; }
+
+header {
+  position: fixed;
+  width: 100%; }
+  header div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; }
+    header div .smokey {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      z-index: -2; }
+
+.banner {
+  position: static;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-image: url("../../media/homebg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .banner div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .banner div h1 {
+      margin: 0 20px 10%;
+      text-align: center; }
+    .banner div img {
+      width: 350px;
+      max-width: 60%;
+      max-height: 60%;
+      margin-bottom: 10%; }
+
+/*# sourceMappingURL=home.css.map */
